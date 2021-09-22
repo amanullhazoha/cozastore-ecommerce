@@ -1,0 +1,91 @@
+.modelStyle {
+  width: 350px;
+  height: 100vh;
+  background: #fff;
+  right: 0;
+  padding: 20px 35px 20px 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.heading h3 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.heading button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.addCartList {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.addCartList figure {
+  width: 25%;
+  margin-right: 35px;
+}
+
+.addCartList .productName {
+  font-size: 17px;
+  color: #666666;
+}
+
+.addCartList .productName p:first-child {
+  margin-bottom: 10px;
+}
+
+.addCartList .productName p:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.addCartList button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: none;
+  font-size: 17px;
+  color: #666666;
+}
+
+.totalValue {
+  position: absolute;
+  bottom: 50px;
+}
+
+.totalValue h3 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.checkOut {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.checkOut button {
+  padding: 7px 15px;
+  border-radius: 50px;
+  color: #e6e6e6;
+  background: #222;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.checkOut button:first-child {
+  margin-right: 15px;
+}

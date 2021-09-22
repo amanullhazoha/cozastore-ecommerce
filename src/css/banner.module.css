@@ -1,0 +1,66 @@
+.bannerSection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 530px;
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 640px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.banner .content {
+  width: 100%;
+}
+
+.banner .content h3 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.banner .content h1 {
+  font-size: 50px;
+  font-weight: normal;
+  padding: 25px 0;
+  text-transform: uppercase;
+}
+
+.banner button {
+  padding: 10px 30px;
+  background: #6c7ae0;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+}
+
+.banner button:hover {
+  background: #333;
+}
+
+.banner .content .arrowBtn {
+  position: relative;
+  font-size: 50px;
+  color: #b2b2b2;
+}
+
+.arrowBtn .leftArrow {
+  position: absolute;
+  left: -40px;
+  top: -120px;
+}
+
+.arrowBtn .rightArrow {
+  position: absolute;
+  right: -40px;
+  top: -120px;
+}

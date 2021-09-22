@@ -1,0 +1,24 @@
+.content h3 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #333333;
+  padding-bottom: 15px;
+}
+
+.filterText button {
+  background: transparent;
+  border: none;
+  color: #888888;
+  margin-right: 20px;
+  font-size: 15px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  display: block;
+}
+
+.filterText button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #6c7ae0;
+  color: #6c7ae0;
+}

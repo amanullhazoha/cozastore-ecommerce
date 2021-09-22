@@ -1,0 +1,15 @@
+.modelContainer {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(87, 99, 176, 0.6);
+}
+
+.model {
+  background: #fff;
+  position: absolute;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}

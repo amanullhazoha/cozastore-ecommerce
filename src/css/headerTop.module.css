@@ -1,0 +1,25 @@
+.headerTop {
+  background: #222;
+  color: #b2b2b2;
+}
+
+.headerTop .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTop .content p {
+  float: left;
+}
+
+.headerTop .content .topbar li {
+  float: left;
+  font-size: 14px;
+  padding: 12px 15px;
+  border-left: 1px solid #b2b2b2;
+}
+
+.headerTop .content .topbar li:last-child {
+  border-right: 1px solid #b2b2b2;
+}

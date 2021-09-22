@@ -1,0 +1,56 @@
+.filter {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter .filterText button {
+  background: transparent;
+  border: none;
+  color: #888888;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.filter .filterText button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #888888;
+}
+
+.filter .filterSearch button {
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 17px;
+  color: #888888;
+  border: 1px solid #888888;
+}
+
+.filter .filterSearch button:first-child {
+  margin-right: 10px;
+}
+
+.filter .filterSearch button i {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.searchInput {
+  position: relative;
+  padding: 10px 0;
+}
+
+.searchInput input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  width: 30%;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,64 @@
+#services {
+  padding-bottom: 40px;
+}
+
+#services .content {
+  box-shadow: 0 0 1px #000;
+  position: relative;
+}
+
+#services .content img {
+  margin-bottom: -4px;
+}
+
+#services .content .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.title h2 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.title p {
+  color: #555555;
+  font-size: 17px;
+}
+
+.hoverTitle {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgba(87, 99, 176, 0.6);
+}
+
+.hoverTitle button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  bottom: 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hoverTitle button::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: calc(50% - 25%);
+  height: 2px;
+  bottom: 20px;
+  background: #fff;
+}

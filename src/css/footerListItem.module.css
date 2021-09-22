@@ -1,0 +1,12 @@
+.listItems li {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.listItems li a {
+  color: #666666;
+}
+
+.listItems li a:hover {
+  color: #6c7ae0;
+}
